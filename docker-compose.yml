@@ -15,6 +15,8 @@ services:
     environment:
       # yaml anchors allow defining pieces of config once and repeating as needed
       <<: *env_key_vars
+      ACCESS_KEY: 
+      SECRET_KEY: 
       APP_NAME: swgoh-comlink-dev
       PORT: 3000
     ports:
